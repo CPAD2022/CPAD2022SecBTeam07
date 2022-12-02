@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hiire">
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="Hiire" />
+  <meta property="og:description" content="Freelancing expert" />
+  <meta property="og:image" content="gggggg.png" /> 
+  <meta name="twitter:title" content="Hiire" />
+  <meta name="twitter:description" content="Freelancing expert" />
+  <meta name="twitter:image" content="gggggg.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> Hiire </title>
+  <meta name="description" content="Freelancing expert" />
+    
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  
+  
+  
+
+  <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyCNoTGUo9ytkHZME1NE7ekZ-o1X_-CBCJI",
+      authDomain: "housie-6dc74.firebaseapp.com",
+      projectId: "housie-6dc74",
+      storageBucket: "housie-6dc74.appspot.com",
+      messagingSenderId: "3330950185",
+      appId: "1:3330950185:web:180bfcda0d84e366eb4838",
+      measurementId: "G-QWWFXNH5DK"
+    }
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
