@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "3330950185",
+    "project_id": "housie-6dc74",
+    "storage_bucket": "housie-6dc74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3330950185:android:befc0b622ddc66e0eb4838",
+        "android_client_info": {
+          "package_name": "com.cpad.housie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3330950185-2spnq568jv52db3fukosvaq855mf317i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cpad.housie",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "3330950185-e06c5qjqu6hvohqfp111l0k118vgbl2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmyEz_EmcpmWt7ChCGM88Tm8Mi34RmLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3330950185-e06c5qjqu6hvohqfp111l0k118vgbl2a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3330950185-kh447sa12qqr51v3earnqfob5tm90h2b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutter.hiire"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3330950185:android:f841a2ad8b867e9aeb4838",
+        "android_client_info": {
+          "package_name": "com.flutter.hiire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3330950185-8jvpgmc9qrtslc6edd051kq2lhl7hubq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter.hiire",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "3330950185-e06c5qjqu6hvohqfp111l0k118vgbl2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmyEz_EmcpmWt7ChCGM88Tm8Mi34RmLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3330950185-e06c5qjqu6hvohqfp111l0k118vgbl2a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "3330950185-kh447sa12qqr51v3earnqfob5tm90h2b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutter.hiire"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
